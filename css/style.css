@@ -1,0 +1,248 @@
+/*
+*******************
+* =misc/content
+*******************
+*/
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background: #CDD7D6;
+    overflow-y: scroll;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.content {
+    display: table-cell;
+    padding: 5px 15px;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    max-width: 828px;
+}
+
+#selfpic {
+    width: 150px;
+    height: 142px;
+    float: right;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content a:active {
+    color: navy;
+}
+
+#index a img:hover {
+    border: 1px solid black;
+}
+
+#index a img:active {
+    border: 1px solid blue;
+}
+
+/*
+*******************
+* =header
+*******************
+*/
+
+header {
+    background: #191970;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/*
+*******************
+* =navbar
+*******************
+*/
+
+nav {
+    background: #F77F00;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: navy;
+}
+
+/*
+*******************
+* =sidebar
+*******************
+*/
+
+#wrapper {
+    display: table;
+}
+
+aside {
+    display: table-cell;
+    background: #191970;
+}
+
+aside a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+aside a:active {
+    color: lightblue;
+}
+
+/*
+*******************
+* =footer
+*******************
+*/
+
+footer {
+    background: #191970;
+    color: white;
+    text-align: right;
+    padding: 1px 20px 1px 0px;
+}
+
+/*
+*******************
+* =projects page
+*******************
+*/
+
+#projects img {
+    border: 1px solid #000000;
+}
+
+#projects figcaption {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#projects figure {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+#projects a img:hover {
+    border: 1px solid orange;
+}
+
+#projects a img:active {
+    border: 2px solid black;
+}
+
+/*
+*******************
+* =graphics page
+*******************
+*/
+
+#banners img {
+    width: 600px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+#logos img {
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+}
+
+#belts img {
+    width: 350px;
+    height: 150px;
+    margin: 10px 10px 10px 0px;
+}
+
+/*
+*******************
+* =contact page
+*******************
+*/
+
+#contact .blockLabel label {
+    display: inline-block;
+    width: 350px;
+    text-align: right;
+    margin: 10px 0;
+}
+
+.offer {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin: 10px 0 10px -10px;
+}
+
+#contact .blockLabel input, .blockLabel select {
+    width: 200px;
+}
+
+#contact textarea {
+    max-width: 600px;
+    max-height: 300px;
+    display: inline-block;
+    margin: 10px 2px;
+}
+
+.comments label {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    text-align: right;
+    margin: 10px 0 10px -10px;
+}
+
+#contact input#submit, #contact input#clear {
+    color: #ffffff;
+    background-color: #191970;
+    border: 1px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.button {
+    margin-left: 140px;
+}
+
+.error {
+    color: red;
+}
