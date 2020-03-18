@@ -1,0 +1,3 @@
+This portfolio was created using HTML, CSS, and PHP. It is intended to show potential employers some of my work. I opted not to use client side form validation on my form for now. I could have used Javascript or HTML 5 validation, but on older browsers and with Javascript disabled, client side validation wouldn't do anything. I opted for server side (PHP) validation because you cannot disable this in a browser. 
+
+I may make a few tweaks to this portfolio here and there, but the majority of changes to it will involve adding new projects and updating my experience as I go along. 
